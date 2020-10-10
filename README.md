@@ -1,2 +1,1 @@
-# Practicing Git
 # SpringRootdemo
