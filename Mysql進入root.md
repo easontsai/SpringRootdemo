@@ -27,3 +27,6 @@ mysql
 mysql -u root -p
 
 password:kuanweitsai
+
+[參考](https://www.ioa.tw/macOS/MySQL.html)
+[參考](https://stackoverflow.com/questions/10070401/mysql-root-password-forgotten/15564012#15564012)
