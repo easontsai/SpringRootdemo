@@ -1,5 +1,6 @@
 JPA Query規則查詢   
 https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods  
+Query建立新的查詢規則有一定的寫法
 ```java=
 /*BookRepository.java*/
     public interface BookRepository extends JpaRepository<Book,Long> {
