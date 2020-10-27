@@ -2,7 +2,7 @@ JPA簡單操作-增刪改查
 
 
 
-```
+```java=
 src
 ├───main
 │   ├───java
@@ -17,12 +17,15 @@ src
 ```
 
 
-```BookRepository.java
+ 
+```java=
+/*BookRepository.java*/
 public interface BookRepository extends JpaRepository<Book,Long> {
 }
 ```
 
-```BookService
+```java=
+/*BookService.java*/
 @Service
 public class BookService {
     @Autowired
@@ -48,7 +51,8 @@ public class BookService {
 }
 ```
 
-```BookApp
+```java=
+/*BookApp*/
 @RestController
 @RequestMapping("/api/v1")
 public class BookApp {
